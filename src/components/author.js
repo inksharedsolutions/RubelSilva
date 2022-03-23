@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import AuthorImg from '../../static/author/jim.jpg'
+import AuthorImg from '../../static/author/jim.png'
 import ImageSlider from "../components/image-slider"
 
 const Author = () => {
