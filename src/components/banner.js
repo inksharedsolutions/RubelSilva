@@ -18,14 +18,17 @@ const Banner = () => {
                                
                                 <Typewriter
                                     options={{ 
+                                      
                                         loop: true,
-                                        changeDelay: 300,
+                                        delay: 40,
                                     }}
                                     onInit={(typewriter) => {
+                                        
                                         typewriter.typeString('Remember that life’s greatest lessons are usually learned at the worst times from the worst mistakes. It will never be too late to start all over again and to find salvation and peace in God almighty. Keep believing! Keep moving! Keep praying!')
                                         .callFunction(() => {
                                             console.log('String typed out!');
                                         })
+                                       
                                         .pauseFor(10000)
                                         .deleteAll(false)
                                         .callFunction(() => {

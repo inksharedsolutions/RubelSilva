@@ -20,16 +20,17 @@ const MidMain = () => {
                         </li>
 
                         <li>
-                            <img src={Logo2} alt="bam-logo"/>
-                        </li>
-
-                        <li>
                             <img src={Logo3} alt="b-and-n-logo"/>
                         </li>
 
                         <li>
                             <img className="stratton-logo" src={Logo4} alt="stratton-logo"/>
                         </li>
+
+                        <li>
+                            <img src={Logo2} alt="bam-logo"/>
+                        </li>
+
 
                     </div>
                 </div>

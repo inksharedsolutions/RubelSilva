@@ -52,14 +52,14 @@ const MidBook = (props) => {
 
                     <div className="content-wraps">
 
-                        <span className="italic-tag">
+                        {/* <span className="italic-tag">
                             Read, listen, and learn in various formats
                         </span>
 
                         <h1 className="heading--featured">
                             <span>Featured</span>
                             <span>Book</span>
-                        </h1>
+                        </h1> */}
 
                         <p>
                         Life's Greatest Adventure is the author's true to life story of his life's greatest adventure facing the consequences of a mistake committed from the past where longing for love and family prospers as he spent day after day trapped in a cell, but he found salvation through God.

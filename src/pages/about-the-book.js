@@ -70,13 +70,13 @@ const ATB = (props) => {
 
                                 ebooks: {
                                     // stratton: '',
-                                    barnes: 'https://www.barnesandnoble.com/w/lifes-greatest-adventure-ruben-s-aguilar/1140505762?ean=9781648956331',
-                                    amazon: 'https://www.amazon.com/Lifes-Greatest-Adventure-Ruben-Aguilar-ebook/dp/B09LCT8G6Z/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1636485532&sr=8-1',
+                                    barnes: 'https://www.barnesandnoble.com/w/prisoners-love-ruben-s-aguilar/1140866979?ean=9781648956355',
+                                    amazon: 'https://www.amazon.com/Prisoners-Love-Spanish-Ruben-Aguilar-ebook/dp/B09Q79DSJ2/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1648200585&sr=8-1',
                                 },
                                 paperback: {
-                                    amazon: 'https://www.amazon.com/Lifes-Greatest-Adventure-Ruben-Aguilar/dp/1648956327/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1636485532&sr=8-1',
-                                    barnes: 'https://www.barnesandnoble.com/w/lifes-greatest-adventure-ruben-s-aguilar/1140505762?ean=9781648956324',
-                                    booksamillion: 'https://www.booksamillion.com/p/Prisoners-Love/Ruben-S-Aguilar/9781648956348?id=8407851309216',
+                                    amazon: 'https://www.amazon.com/Prisoners-Love-Ruben-S-Aguilar/dp/1648956343/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1648200585&sr=8-1',
+                                    barnes: 'https://www.barnesandnoble.com/w/prisoners-love-ruben-s-aguilar/1140866979?ean=9781648956348',
+                                    booksamillion: 'https://www.booksamillion.com/p/Prisoners-Love/Ruben-S-Aguilar/9781648956348?id=8353755552402',
                                   
                                 }
                             }}
@@ -103,12 +103,12 @@ const ATB = (props) => {
 
                                 ebooks: {
                                     // stratton: '',
-                                    barnes: 'https://www.barnesandnoble.com/w/go-tell-the-world-of-their-danger-james-reule/1137021737?ean=9781648955327',
-                                    amazon: 'https://www.barnesandnoble.com/w/prisoners-love-ruben-s-aguilar/1140866979?ean=9781648956355',
+                                    barnes: 'https://www.barnesandnoble.com/w/lifes-greatest-adventure-ruben-s-aguilar/1140505762?ean=9781648956331',
+                                    amazon: 'https://www.amazon.com/dp/B09LCT8G6Z/ref=sr_1_1?keywords=9781648956331&qid=1636485532&qsid=145-4607600-8403252&sr=8-1&sres=B09LCT8G6Z&srpt=ABIS_BOOK',
                                 },
                                 paperback: {
                                     amazon: 'https://www.amazon.com/Lifes-Greatest-Adventure-Ruben-Aguilar/dp/1648956327/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1636485532&sr=8-1',
-                                    barnes: 'https://www.barnesandnoble.com/w/prisoners-love-ruben-s-aguilar/1140866979?ean=9781648956348',
+                                    barnes: 'https://www.barnesandnoble.com/w/lifes-greatest-adventure-ruben-s-aguilar/1140505762?ean=9781648956324',
                                     booksamillion: 'https://www.booksamillion.com/p/Lifes-Greatest-Adventure/Ruben-S-Aguilar/9781648956324?id=8407851309216',
                                 }
                             }}
