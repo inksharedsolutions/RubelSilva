@@ -63,6 +63,12 @@
         align-items: center;
         text-align: left;
 
+        @media (max-width:1000px) {
+            gap: 0;
+            margin: 8% 0;
+        }
+
+
     }
 }
 
@@ -101,7 +107,7 @@
     }
 
     #logos-col {
-        margin: 6% 0;
+        margin: 6%;
     }
 
 }
