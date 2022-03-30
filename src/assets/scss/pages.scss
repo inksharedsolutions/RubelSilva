@@ -287,11 +287,12 @@ $prm-font-size : 12px;
         list-style: none;
         display: inline-block;
         padding: 0 4px;
+        // background-color: #E4532C ;
     }
 
     a {
         text-decoration: none;
-        // background: #E4532C ;
+        background: #E4532C ;
         padding: 4px 15px;
         color: #ffffff !important;
         font-size: 13px;
