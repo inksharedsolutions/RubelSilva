@@ -1,9 +1,29 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import AuthorImg from '../../static/author/jim.png'
 import ImageSlider from "../components/image-slider"
+import AuthorImg from '../../static/author/jim.png'
+import AuthorImg1 from '../../static/author/pic1.jpeg'
+import AuthorImg2 from '../../static/author/pic2.jpeg'
+import AuthorImg3 from '../../static/author/pic3.jpeg'
+import AuthorImg4 from '../../static/author/pic4.jpeg'
+import { Helmet } from "react-helmet"
+
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
+import Slider from "react-slick";
+
 
 const Author = () => {
+    const settings = {
+        dots: true,
+        fade: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        adaptiveHeight: true
+      };
     return (
         <>
             <section className="upper-main bg-color" id="main-upper-author">
@@ -31,8 +51,34 @@ const Author = () => {
                         </span>
 
                     </div>
-                    <div className="group-sec">
-                        <img src={AuthorImg}/>
+                    <div className="author-image-container">
+                    <Slider {...settings}>
+                                <div className="slide-autohor">
+                                    <img
+                                        src={AuthorImg}
+                                        alt="_main_author" />
+                                </div>
+                                <div className="slide-autohor">
+                                    <img
+                                        src={AuthorImg1}
+                                        alt="_main_author" />
+                                </div>
+                                <div className="slide-autohor">
+                                    <img
+                                        src={AuthorImg2}
+                                        alt="_main_author" />
+                                </div>
+                                <div className="slide-autohor">
+                                    <img
+                                        src={AuthorImg3}
+                                        alt="_main_author" />
+                                </div>
+                                <div className="slide-autohor">
+                                    <img
+                                        src={AuthorImg4}
+                                        alt="_main_author" />
+                                </div>
+                            </Slider>
                       </div>
                 </div>
             </section>

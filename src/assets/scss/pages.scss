@@ -87,8 +87,18 @@ $prm-font-size : 12px;
 }
 
 .author-image-container {
-
+    width: 400px;
     text-align: center;
+    margin: 0 auto;
+
+    .slick-prev:before, .slick-next:before {
+        color: rgb(20, 5, 5);
+
+    }
+  .slide-autohor{
+      display: flex;
+      justify-content: center;
+  }
     h1{
         font-size: 26px;
         /* line-height: 56px; */
@@ -96,12 +106,9 @@ $prm-font-size : 12px;
     }
 
     img {
-        width: 50%;
+        width: 100%;
         border: 12px solid #e0e0db57;
-        @media (max-width:768px) {
-            width: 80%;
-            
-        }
+       
     }
 }
 
